@@ -1,0 +1,108 @@
+body{
+    /* font-family: 'Baloo Bhai 2', cursive; */
+font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+background-color: rgb(208, 223, 234);
+} 
+#priceCalculate{
+    display: flex;
+    flex-direction: row;
+   
+}
+#selectedItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding-top: 1rem;
+  
+   
+}
+#navbar{
+    background-color: rgb(13, 1, 1);
+    color: wheat;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 5px;
+}
+#right{
+    margin-top: 20px;
+}
+#left{
+    margin-left: 10px;
+}
+table{
+    
+    width: 100% !important;
+}
+th{
+    width: 70px;
+    padding: 5px;
+}
+table,tr,th{
+    padding: 1rem;
+    margin: .1px;
+    border:1px solid rgb(31, 102, 153) ;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  
+ 
+  border: 1px solid rgb(174, 32, 32);
+}
+
+img{
+    width: 20%;
+   
+}
+.item{
+    margin-right: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+   border: 1px solid rgb(174, 32, 32);
+    width: fit-content;
+}
+#priceTable{
+    margin: 10px;
+width: 100%;
+background-color: black;
+color: white;
+}
+#checkout{
+    /* width: 150px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left:60px ;
+    margin-bottom: 0px; */
+    margin-top: 1rem;
+    margin-left: 5rem;
+    padding: 0.2rem 0.4rem;
+    height: 3rem;
+    width: 12rem;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #d9e7ff;
+    font-size: 20px;
+    color: rgb(19, 19, 19);
+    background-color: rgb(132, 191, 233);
+}
+#showName{
+    color: aqua;
+    
+}
+.delet{
+    border: none;
+    background-color: rgb(208, 48, 48);
+    color: aliceblue;
+    padding: .3rem;
+}

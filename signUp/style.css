@@ -1,0 +1,71 @@
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+    background-color: rgb(222,244,242);
+}
+#navbar{
+    /* background-color: rgb(13, 1, 1);
+    color: wheat;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 5px;
+}
+#right{
+    margin-top: 20px;
+}
+#left{
+    margin-left: 10px;
+}
+input{
+       /* padding: 1rem;
+    border-radius: 20px;
+    border: 2px solid#d9e7ff;
+    font-size: 20px; */
+    margin: .2rem;
+    width: 32rem;
+    padding: 1rem;
+    border-radius: 20px;
+    border: 2px solid#d9e7ff;
+    font-size: 20px;
+}
+#signupButton{
+    /* background-color: black;
+    color: white;
+    border: none;
+    width: 20%;
+    padding: 5px;
+    margin: 10px; */
+    padding: 0.2rem 0.4rem;
+    height: 3rem;
+    width: 12rem;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #d9e7ff;
+    font-size: 20px;
+    color: beige;
+    background-color: black;
+}
+
+#requires{
+    color: brown;
+}

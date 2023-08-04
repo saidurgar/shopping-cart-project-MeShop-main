@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(222,243,243);
+    font-family: 'Poppins', sans-serif
+}
+#navbar{
+    /* background-color: black;
+    color: wheat;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+#h1{
+    font-size: 6rem;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 5px;
+}
+#right{
+    margin-top: 20px;
+}
+#left{
+    margin-left: 10px;
+}
+#login{
+    /* background-color: black;
+    color: white;
+    border: none;
+    width: 20%;
+    padding: 5px;
+    margin: 10px; */
+    padding: 0.2rem 0.4rem;
+    height: 3rem;
+    width: 12rem;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #d9e7ff;
+    font-size: 20px;
+    background-color: black;
+}
+
+#signUp{
+    /* border: none; */
+    /* width: 20%;
+    padding: 5px;
+    margin: 10px; */
+    background-color: rgb(201, 49, 49);
+    color: white ;
+    padding: 0.2rem 0.4rem;
+    height: 3rem;
+    width: 12rem;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #d9e7ff;
+    font-size: 20px;
+   
+}
+#landingImg{
+  
+        border-radius: 10%;
+        height: 30rem;
+        width: 50rem;
+        margin: 0 30rem 0;
+        opacity: 80%;
+}
+section{
+    margin-top: 0rem;
+    background-color: rgb(223,246,239);
+}

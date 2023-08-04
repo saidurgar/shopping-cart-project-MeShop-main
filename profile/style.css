@@ -1,0 +1,48 @@
+body{
+    background-color: #d9e7ff;
+    font-family: 'Poppins', sans-serif
+}
+#navbar{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+
+button{
+    padding: 0.2rem 0.4rem;
+    height: 3rem;
+    width: 12rem;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #d9e7ff;
+    font-size: 20px;
+    background-color: black;
+    color: #d9e7ff;
+}
+input{
+    margin: .2rem;
+    width: 32rem;
+    padding: 1rem;
+    border-radius: 20px;
+    border: 2px solid#d9e7ff;
+    font-size: 20px;
+}
+#userName{
+    color: aqua;
+}

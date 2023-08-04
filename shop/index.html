@@ -1,0 +1,195 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MeShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Poppins&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+   
+    <nav>
+      <div class="brand">
+        <a href="/">MeShop.</a>
+      </div>
+      <div>
+        <P id="showName"></P>
+      </div>
+      <div class="nav-items" id="nav-items">
+        <a href="../index.html">Home</a>
+        <!-- <a href="/login">Login</a>
+        <a href="/signup">Signup</a> -->
+        <a href="../cart/"> My Cart</a>
+      </div>
+    </nav>
+
+    <main>
+      <aside>
+        <section>
+          <title>Colors</title>
+          <ul>
+            <li>
+              <input id="red" type="checkbox" name="color" />
+              <label for="red">Red</label>
+            </li>
+            <li>
+              <input id="blue" type="checkbox" name="color" />
+              <label for="blue">Blue</label>
+            </li>
+            <li>
+              <input id="green" type="checkbox" name="color" />
+              <label for="green">Green</label>
+            </li>
+            <li>
+              <input id="black" type="checkbox" name="color" />
+              <label for="black">Black</label>
+            </li>
+            <li>
+              <input id="white" type="checkbox" name="color" />
+              <label for="white">White</label>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <title>Sizes</title>
+          <ul>
+            <li>
+              <input id="s" type="checkbox" name="color" />
+              <label for="s">S</label>
+            </li>
+            <li>
+              <input id="m" type="checkbox" name="color" />
+              <label for="m">M</label>
+            </li>
+            <li>
+              <input id="l" type="checkbox" name="color" />
+              <label for="l">L</label>
+            </li>
+            <li>
+              <input id="xl" type="checkbox" name="color" />
+              <label for="xl">XL</label>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <title>Rating</title>
+          <input
+            type="range"
+            id="range"
+            min="0"
+            max="5"
+            value="0"
+            list="values"
+          />
+          <datalist id="values">
+            <option value="0" label="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5" label="5"></option>
+          </datalist>
+        </section>
+        <section>
+          <title>Price Range</title>
+          <ul>
+            <li>
+              <input id="0-25" type="checkbox" name="prange" />
+              <label for="0-25">$0 to $25</label>
+            </li>
+            <li>
+              <input id="25-50" type="checkbox" name="prange" />
+              <label for="25-50">$25 to $50</label>
+            </li>
+            <li>
+              <input id="50-100" type="checkbox" name="prange" />
+              <label for="50-100">$50 to $100</label>
+            </li>
+            <li>
+              <input id="100on" type="checkbox" name="prange" />
+              <label for="100on">$100 onwards</label>
+            </li>
+          </ul>
+        </section>
+      </aside>
+      <main-content>
+        <input type="text" placeholder="Search" />
+        <div class="filters">
+          <div class="filter active">ALL</div>
+          <div class="filter">Mens</div>
+          <div class="filter">Womens</div>
+          <div class="filter">Jewellery</div>
+          <div class="filter">Electronics</div>
+        </div>
+        <section>
+          <title id="productDiscription">All Product</title>
+          
+          <div class="items" id="itemMen">
+
+            <!-- <div class="item">
+              <img src="tshirt.png" alt="Item" />
+              <div class="info">
+                <div class="row">
+                  <div class="price">$100</div>
+                  <div class="sized">S,M,L</div>
+                </div>
+                <div class="colors">
+                  Colors:
+                  <div class="row">
+                    <div class="circle" style="background-color: #000"></div>
+                    <div class="circle" style="background-color: #4938af"></div>
+                    <div class="circle" style="background-color: #203d3e"></div>
+                  </div>
+                </div>
+                <div class="row">Rating:</div>
+              </div>
+              <button id="addBtn">Add to Cart</button>
+            </div> -->
+
+           
+          </div>
+        </section>
+
+        <!-- <section >
+          <title id="productDiscription2">Women's Clothing</title>
+          <div class="items" id="itemWomen">
+             
+             <div class="item product">
+                <img class="wimg" src="${value.image}" alt="Item" />
+                <div class="info">
+                  <div class="row">
+                    <div class="price"><span>${value.price}</span>$</div>
+                    <div class="sized">S,M,L</div>
+                  </div>
+                  <div class="colors">
+                    Colors:
+                    <div class="row">
+                      <div class="circle" style="background-color: #000"></div>
+                      <div class="circle" style="background-color: #4938af"></div>
+                      <div class="circle" style="background-color: #203d3e"></div>
+                    </div>
+                  </div>
+                  <div class="row">Rating: -${value.rating.rate}</div>
+                  <div>
+                    <h3>${value.title}</h3>
+                  </div>
+                </div>
+                <button id="${value.id}" class="add-to-cart-btn">Add to Cart</button>
+              </div>
+            
+          </div>
+        </section> -->
+      </main-content>
+    </main>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
+    
